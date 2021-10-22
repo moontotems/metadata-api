@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
   res.send('')
 })
 
-app.get('/api/token/:token_id', function (request, response) {
+app.get('/token/:token_id', function (request, response) {
   const tokenId = parseInt(request.params.token_id).toString()
 
   if (isNaN(tokenId) || tokenId < MIN_TOKEN_ID || tokenId > MAX_TOKEN_ID) {
