@@ -1,4 +1,4 @@
-# Metadata API [NodeJS]
+# Moon Totems Metadata API [NodeJS]
 
 ## Install dependencies
 
